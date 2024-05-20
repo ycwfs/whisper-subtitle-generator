@@ -1,0 +1,1 @@
+# whisper-subtitle-generator
