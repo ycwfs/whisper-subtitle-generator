@@ -1,0 +1,21 @@
+#输入的视频文件
+input: /data1/wangqiurui/code/auto_ai_subtitle/videos/puck.mp4
+out_sb: /data1/wangqiurui/code/auto_ai_subtitle/videos/puck_sb.mp4
+#中间过程会生成的音频文件
+output: /data1/wangqiurui/code/auto_ai_subtitle/videos/puck.mp3
+#生成的原始字幕文件
+srt_path: /data1/wangqiurui/code/auto_ai_subtitle/videos/puck.srt
+ass_path: /data1/wangqiurui/code/auto_ai_subtitle/videos/puck.ass
+#生成的翻译后的字幕文件
+srt_translate_path: /data1/wangqiurui/code/auto_ai_subtitle/videos/puck-zh.srt
+#翻译时开启多少线程
+translate_threads: 100
+#翻译源语言
+from: en
+#翻译目标语言
+to: zh
+#huggingface model地址，例如 D:\download\pytorch_model.bin
+#hf_model_path: "/data1/wangqiurui/code/auto_ai_subtitle/whisper/pytorch_model.bin"
+hf_model_path: 1
+#devive: cuda, cpu
+device: cuda
