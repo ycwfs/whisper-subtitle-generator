@@ -1,6 +1,6 @@
 import yaml
 
-from script import translate_tool, audio_tool, whisper_tool
+import translate_tool, audio_tool, whisper_tool
 if __name__ == '__main__':
     with open('config.yaml', encoding='utf-8') as f:
         config = yaml.load(f.read(), Loader=yaml.FullLoader)
